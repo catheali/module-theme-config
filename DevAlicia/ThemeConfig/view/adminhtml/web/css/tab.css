@@ -1,0 +1,11 @@
+.admin__page-nav.dws-config-tab._collapsed._show ._collapsible strong:before {
+    content: " ";
+    background: url(../images/tab/dev.png) no-repeat scroll 0 0 transparent;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.admin__page-nav.dws-config-tab._collapsed._show ._collapsible strong {
+    font-size: 0;
+}
