@@ -53,7 +53,8 @@ class ChangeColors
     public function changeColorPrimary(string $color, $theme = null ): bool
     {
         $theme = $this->getThemeData($theme);
-        $replaceValue = "@custom-color-button: #$color;";
+		$color = str_contains( $color, '#') ? $color : '#'.$color;
+        $replaceValue = "@custom-color-button: $color;";
         $filePath = $this->_directoryList::APP.SELF::FILE_PATH_THEME_EXTEND.$theme['theme_path'].SELF::CSS_PATH_THEME_EXTEND;
         $absolutePath = $this->_filesystem->getDirectoryRead(DirectoryList::ROOT)->getAbsolutePath($filePath);
         $fileContents = file_get_contents($absolutePath);
