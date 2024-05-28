@@ -1,7 +1,11 @@
 # Módulo Magento - Theme Config
 
-Este módulo Magento foi desenvolvido para facilitar a personalização das cores dos botões de classe "primary" em lojas Magento CLI 2.4.7. Ele adiciona um comando no console que permite alterar a cor dos botões primários, diferenciando entre lojas através de seus IDs, também foi adicionada uma configuração no Admin Magento que permite a mesma funcionabilidade. 
+Este módulo Magento foi desenvolvido para facilitar a personalização das cores dos botões de classe "primary" em lojas Magento **2.4.7**. Ele adiciona um comando no console que permite alterar a cor dos botões primários, diferenciando entre lojas através de seus IDs, também foi adicionada uma configuração no Admin Magento que permite a mesma funcionabilidade. 
 ` Admin > Stores > Configuration > Theme Config > Colors Configuration > Primary Color `
+
+## Compatibilidade 
+- **Magento 2.4.7**
+- **PHP 8.3.6**
 
 ## Instalação
 
